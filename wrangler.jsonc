@@ -9,16 +9,16 @@
 	"compatibility_date": "2025-03-03",
     "d1_databases": [
         {
-          "binding": "DB",
-          "database_name": "d1_db",
-          "database_id": "8b0bc624-8c5d-443e-bd3e-27d9297d853c"
+          "binding": "AUTH_DB",
+          "database_name": "hugpics-auth",
+          "database_id": "8478c917-5008-4bdf-afd7-ac3f3fb648d9"
         }
     ],
     "secrets_store_secrets": [
         {
-            "store_id": "<YOUR-STORE-ID>",
-            "binding": "SECRET",
-            "secret_name": "<YOUR-SECRET-NAME>"
+            "store_id": "d8e4a121ae524b8a8da02f8afb6f7ec5",
+            "binding": "db@86738#",
+            "secret_name": "auth_db_sss"
         }
     ],
 	"observability": {
