@@ -14,11 +14,11 @@ This REST API implementation offers significantly faster performance compared to
 ## Quick Start
 ```bash
 # Example: Get users with filtering and pagination
-curl --location 'https://d1-rest.<YOUR-IDENTIFIER>.workers.dev/rest/users?limit=2&age=25' \
+curl --location 'https://d1-rest.ljg-lxf.workers.dev/rest/users?limit=2&age=25' \
 --header 'Authorization: Bearer <YOUR-SECRET-VALUE>'
 
 # Example: Execute raw SQL query
-curl --location 'https://d1-rest.<YOUR-IDENTIFIER>.workers.dev/query' \
+curl --location 'https://d1-rest.ljg-lxf.workers.dev/query' \
 --header 'Authorization: Bearer <YOUR-SECRET-VALUE>' \
 --header 'Content-Type: application/json' \
 --data '{
