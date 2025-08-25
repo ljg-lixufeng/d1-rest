@@ -9,7 +9,7 @@
 	"compatibility_date": "2025-03-03",
     "d1_databases": [
         {
-          "binding": "AUTH_DB",
+          "binding": "DB",
           "database_name": "hugpics-auth",
           "database_id": "8478c917-5008-4bdf-afd7-ac3f3fb648d9"
         }
